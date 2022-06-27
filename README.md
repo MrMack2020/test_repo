@@ -1,2 +1,2 @@
 # test_repo
-This is a test repo for new tings
+terraform creation and jenkins uploaded to ec2 instance
