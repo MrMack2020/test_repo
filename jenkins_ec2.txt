@@ -13,13 +13,14 @@ Installing Jenkins on EC2 instance
 8/ 'sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key'
 9/ 'sudo amazon-linux-extras install epel'
 10/ 'sudo yum install jenkins'
-11/ 'sudo systemctl enable jenkins' 'sudo systemctl start jenkins' 'sudo systemctl status jenkins'
+11/ yum install git
+12/ 'sudo systemctl enable jenkins' 'sudo systemctl start jenkins' 'sudo systemctl status jenkins'
 
 =============================================
 Opening Jenknins
 =============================================
 
-12/ 'http://ec2-22-22-22-22.compute-1.amazonaws.com:8080'
-13/ whilst using ssh 'sudo cat /var/lib/jenkins/secrets/initialAdminPassword' to generate jenkins passcode
+13/ 'http://ec2-22-22-22-22.compute-1.amazonaws.com:8080'
+14/ whilst using ssh 'sudo cat /var/lib/jenkins/secrets/initialAdminPassword' to generate jenkins passcode
 
 
